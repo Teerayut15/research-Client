@@ -1,0 +1,47 @@
+section[page=signup] header{
+    padding: 1rem;
+    text-align: center;
+}
+section[page=signup] header h2{
+    font-weight: 400;
+}
+section[page=signup] header p{
+    color: gray;
+    font-weight: 200;
+    padding-top: 0.25rem;
+}
+.signup-body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-content{
+    padding-top: 1rem;
+    width: 50%;
+}
+[page=signup] .input-list{
+    row-gap: 1rem;
+}
+[page=signup] .form-button{
+    padding-top: 0.5rem;
+}
+[page=signup] .form-button button{
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #f0932b;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+[page=signup] .form-button button[disabled]{
+    background-color: #c3c3c3;
+}
+[page=signup] .input-item input{
+    font-family: Cordia New;
+    font-size: 1.3rem;
+}

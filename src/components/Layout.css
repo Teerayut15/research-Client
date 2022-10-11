@@ -1,0 +1,29 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 200px;
+    background-color: #222f3e;
+    margin-top: auto;
+}
+.footer-content .brand h1{
+    color: #f0932b;
+    font-size: 3rem;
+}
+.footer-content .brand p{
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 200;
+    letter-spacing: 0.25rem;
+}
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}

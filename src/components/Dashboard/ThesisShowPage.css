@@ -1,0 +1,32 @@
+.file-pdf{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 0.25rem 0.5rem;
+    /* background-color: #f1f2f6; */
+    /* border-radius: 0.5rem; */
+    width: auto;
+}
+.file-pdf p{
+    font-weight: 300;
+    color: #ffa502;
+}
+.file-pdf svg{
+    color: red;
+    cursor: pointer;
+}
+.file-pdf small.delete{
+    /* background-color: transparent; */
+    cursor: pointer;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+input.required-input{
+    outline: solid 1px red;
+}
+textarea.required-input{
+    outline: solid 1px red;
+}
+select.required-input{
+    outline: solid 1px red;
+}

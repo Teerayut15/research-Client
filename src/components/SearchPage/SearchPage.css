@@ -1,0 +1,121 @@
+.search-body{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 228px 1fr;
+    align-items: center;
+    width: 100%;
+}
+.search-target select, .search-input input, .search-button button{
+    background-color: white;
+    border: solid 1px #ccc;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.search-target select{
+    text-align: center;
+    border-radius: 0.5rem 0 0 0.5rem;
+    font-weight: 300;
+}
+.search-input input{
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.search-input input:focus{
+    outline: none;
+}
+.search-result{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.search-sort{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    
+}
+.search-sort p{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.search-sort .select-box{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: solid 1px coral;
+    border-radius: 0.5rem;
+    padding: 0.25rem 1rem;
+}
+.search-sort select{
+    color: coral;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+    text-align: center;
+}
+.search-sort select option{
+    color: black;
+}
+.greeting-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 2rem 0;
+}
+.greeting-text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7f8c8d;
+}
+.greeting-text i{
+    font-size: 8rem;
+    color: #7f8c8d;
+}
+.notfound{
+    /* padding: 2rem 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+.notfound .icon{
+    font-size: 8rem;
+    color: #7f8c8d;
+}
+.notfound .text{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+    font-size: 1.8rem;
+    color: #7f8c8d;
+}
+.search-thesis-element{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    column-gap: 1rem;
+}
+.search-thesis-element .thesis{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.search-thesis-element .filter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    font-size: 1.25rem;
+}
+.filter .checkbox-item{
+    padding-left: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.checkbox-item label, .checkbox-item input[type=checkbox]{
+    cursor: pointer;
+}
+

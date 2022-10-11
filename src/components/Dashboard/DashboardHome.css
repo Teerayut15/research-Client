@@ -1,0 +1,50 @@
+section[page='home']{
+    padding-top: 2rem;
+}
+section[page='home'] .page-body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.static-content{
+    width: 100%;
+}
+.static-content-body{
+    display: flex;
+    width: 100%;
+    column-gap: 2rem;
+    padding-top: 1rem;
+}
+.static-content header{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.static-content header h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.static-content header .icon{
+    display: flex;
+    /* align-items: flex-end; */
+    padding: 0.1rem 0.25rem;
+    background-color: #1e90ff;
+    border-radius: 0.5rem;
+}
+.static-content header .icon svg{
+    color: white;
+    font-size: 2rem;
+}
+.rows{
+    display: flex;
+    column-gap: 1rem;
+}
+.w-1{
+    width: 10%;
+}
+.w-2{
+    width: 20%;
+}
+.w-3{
+    width: 30%;
+}

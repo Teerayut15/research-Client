@@ -1,0 +1,307 @@
+.thesis-show{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.thesis-show header h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.thesis-show hr{
+    /* color: aqua; */
+    height: 1px;
+    background-color: #dfe4ea;
+    border: none;
+}
+.show-top{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.show-top-left{
+    text-align: center;
+}
+.show-top-left img{
+    width: 166px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.show-top-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.show-detail-top h1{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+.show-detail-top .creators{
+    padding-top: 0.25rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.show-detail-top .creators p{
+    color: #636e72;
+    background-color: #f1f2f6;
+    font-weight: 500;
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+}
+
+/* show detail center */
+.show-detail-center{
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    row-gap: 0.25rem;
+    column-gap: 3rem;
+    justify-content: center;
+    /* background-color: #1b83eb; */
+}
+.key-and-value{
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: start;
+    width: 100%;
+    font-size: 0.9rem;
+}
+p.key{
+    font-weight: 200;
+    color: #636e72;
+}
+p.value{
+    font-weight: 200;
+    color: black;
+}
+.keywords{
+    display: flex;
+    column-gap: 0.5rem;
+}
+/* ////////////////////////////////////// */
+
+/* ส่วนแสดงจำนวนเข้าชม, ดาวน์โหลด และ ปุ่มดาวน์โหลด */
+.show-detail-bottom{
+    padding-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.show-detail-bottom .views-and-downloads{
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.show-detail-bottom .views, .show-detail-bottom .downloads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+.views p.count, .downloads p.count{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: black;
+}
+.like-and-report{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+button.report, button.like{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+button.report{
+    background-color: #1e90ff;
+}
+button.report:hover{
+    background-color: #1b83eb;
+}
+button.like{
+    background-color: white;
+    border: solid 1px #ff4757;
+    color: #ff4757;
+}
+button.like:hover{
+    background-color: #f5ecec;
+}
+button.liked:hover{
+    background-color: #d63a47;
+}
+
+/* ส่วนแสดงบทคัดย่อ */
+.show-center{
+}
+
+.show-center p{
+    padding: 0.5rem 1rem;
+    font-weight: 200;
+}
+
+/* ส่วนแสดงไฟล์และดาวน์โหลด */
+.show-bottom{
+    
+}
+.show-bottom .file-item{
+    background-color: #f1f2f6;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #636e72;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 0.5rem;
+    border-bottom: solid 1px #dfe4ea;
+}
+.show-bottom .file-item:last-child{
+    border-bottom: none;
+}
+.file-item .file{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 1rem;
+    width: 100%;
+}
+.file-item .button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    column-gap: 1rem;
+    width: 100%;
+}
+.file-item .button::before{
+    content: "|";
+    font-weight: 100;
+    align-items: center;
+}
+.file .file-detail{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.file p.file-name{
+    font-size: 1rem;
+    color: black;
+}
+.download-btn, .preview-btn{
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.download-btn{
+    color: #2ed573;
+}
+button.liked{
+    border: solid 1px #ff4757;
+    color: white;
+    background-color: #ff4757;
+}
+
+@media only screen and (min-width: 768px){
+    .thesis-show{
+        padding-top: 1rem;
+    }
+    .thesis-show header h3{
+        font-size: 1.5rem;
+    }
+    .show-detail-top h1{
+        font-size: 1.5rem;
+    }
+    .show-detail-center{
+        column-gap: 4rem;
+    }
+    .key-and-value{
+        font-size: 1rem;
+    }
+    .detail-center-right, .detail-center-left{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.25rem;
+    }
+    .show-detail-bottom .views, .show-detail-bottom .downloads{
+        font-size: 0.9rem;
+    }
+
+    .show-bottom .file-item{
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .file p.file-name{
+        font-size: 1.15rem;
+    }
+    .file-item .file{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .file .file-detail{
+        column-gap: 1rem;
+    }
+    .file-item .button{
+        width: 30%;
+    }
+    .download-btn, .preview-btn{
+        font-size: 1.05rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .show-top{
+        grid-template-columns: 228px 1fr;
+        column-gap: 3rem;
+    }
+    .show-top-left img{
+        width: 100%;
+        height: 100%;
+    }
+    .show-top-right{
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .show-detail-top h1{
+        padding-top: 0;
+        text-align: start;
+    }
+    .show-detail-top .creators{
+        justify-content: flex-start;
+    }
+    .show-detail-top .creators p{
+    }
+
+    .show-detail-center{
+        column-gap: 5rem;
+        justify-content: start;
+    }
+    .show-detail-bottom .views-and-downloads{
+        justify-content: flex-start;
+    }
+    .like-and-report{
+        justify-content: flex-start;
+    }
+    
+}
+
+@media only screen and (min-width: 1335px){
+    .show-bottom .file-item{
+    }
+    .file-item .button{
+        width: 20%;
+    }
+}

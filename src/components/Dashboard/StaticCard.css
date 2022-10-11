@@ -1,0 +1,67 @@
+.static-card{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.static-card .card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1rem;
+    /* background-color: rgba(210, 124, 124, 0.253);
+    color: #FEC373; */
+}
+.static-card select{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+
+    background-color: rgb(207, 241, 175);
+    border-radius: 1rem;
+    border: none;
+    color: #2ed573;
+    -webkit-appearance: none;
+    text-align: center;
+}
+.static-card svg{
+    font-size: 2rem;
+}
+.static-card h2{
+    padding-top: 1rem;
+    color: black;
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+.static-card small{
+    font-weight: 400;
+    color: #a4b0be;
+}
+.static-card .thesis{
+    background-color: #ff6b813d;
+    color: #ff6b81;
+}
+.static-card .visit{
+    background-color: #fec4734e;
+    color: #FEC373;
+}
+.static-card .card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+.static-card option{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none !important;
+}

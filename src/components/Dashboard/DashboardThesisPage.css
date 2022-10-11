@@ -1,0 +1,107 @@
+section[page=all-thesis] header{
+    padding: 1rem 0;
+    width: 100%;
+}
+.page-body{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+/* table{
+    width: 100%;
+}
+table thead th{
+    background-color: #f1f2f6;
+    text-align: center;
+    padding: 0.75rem 1rem !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #7a7d7e;
+}
+table thead th:first-child{
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+table thead th:last-child{
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+table tr td{
+    text-align: center;
+    padding: 1rem !important;
+    font-weight: 300;
+    color: #2f3542;
+}
+thead th:nth-child(2), tbody td:nth-child(2){
+    text-align: start;
+}
+table tbody tr{
+    padding: 0.5rem 0;
+    border-bottom: solid 1px #dfe4ea;
+} */
+.page-body .table-btn{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+img.cover-image{
+    width: 40px;
+    object-fit: cover;
+}
+button.add{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #1e90ff;
+    /* background-color: #2ed573; */
+    color: white !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+button.add:hover{
+    background-color: #1b85ef;
+}
+.more-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 0.25rem;
+}
+.more-icon:hover{
+    background-color: #eeeeee;
+}
+.more-icon:hover .more-menu{
+    display: flex;
+}
+.more-menu{
+    position: absolute;
+    display: none;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #363636ec;
+    border-radius: 0.25rem;
+}
+.more-menu a{
+    text-decoration: none;
+    color: #dfe4ea;
+}
+.more-menu-item{
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+a.link{
+    color:#1e90ff;
+    text-decoration: none;
+}
+.more-menu-item:hover{
+    background-color: #141414;
+    border-radius: 0.25rem;
+}
+.show{
+    display: flex;
+}

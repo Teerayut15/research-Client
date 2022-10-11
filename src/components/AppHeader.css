@@ -1,0 +1,17 @@
+.app-header{
+    display: none;
+    width: 100%;
+    background-color: white;
+}
+.app-header-body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+}
+@media only screen and (min-width: 768px){
+    .app-header{
+        display:flex;
+    }
+}
+

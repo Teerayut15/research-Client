@@ -1,0 +1,35 @@
+section[page=all-report] header{
+    padding: 1rem 0;
+    width: 100%;
+}
+.page-body{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+a.link{
+    color:#1e90ff;
+    text-decoration: none;
+}
+.status-pending{
+    font-weight: 400;
+    background-color: #dfe4eaa4;
+    color: #a4b0be;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+.status-inprogress{
+    font-weight: 400;
+    background-color: #ff7f503f;
+    color: #ff6348;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+.status-success{
+    font-weight: 400;
+    background-color: #7bed9f62;
+    color: #2ed573;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}

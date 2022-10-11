@@ -1,0 +1,16 @@
+section[page=show-user] hr{
+    border: none;
+    background-color: rgb(241, 241, 241);
+    height: 1px;
+    width: 100%;
+}
+section[page=show-user] header{
+    /* position: fixed; */
+    padding: 1rem 0;
+    width: 100%;
+}
+input[disabled]{
+    background-color: #f1f2f6;
+    color: #747d8c;
+    border: solid 1px #ced6e0;
+}

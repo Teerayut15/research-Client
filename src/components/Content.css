@@ -1,0 +1,8 @@
+.my-content{
+    margin-top: auto; 
+    /* margin-top: 3rem; */
+    padding-top: 3rem;
+    background-color: rgb(10, 10, 42);
+    height: 300px;
+    width: 100%;
+}
