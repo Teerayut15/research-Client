@@ -27,9 +27,9 @@ function Home(){
     // }
 
     // elements
-    const newThesisElements = thesisList.map((thesis, index) => {
-        return <ThesisItem thesis={thesis} key={index}></ThesisItem>
-    })
+    // const newThesisElements = thesisList.map((thesis, index) => {
+    //     return <ThesisItem thesis={thesis} key={index}></ThesisItem>
+    // })
 
     return (
         <section className="home">
@@ -39,7 +39,7 @@ function Home(){
                     <header>
                         <h1>รายการยอดนิยม</h1>
                     </header>
-                    <Slide dataList={thesisList}></Slide>
+                    {/* <Slide dataList={thesisList}></Slide> */}
                 </section>
                 {/* ////////////////////////////////// */}
                 
@@ -49,7 +49,7 @@ function Home(){
                         <h1>รายการมาใหม่</h1>
                     </header>
                     <div className="thesis-card">
-                        {newThesisElements}
+                        {/* {newThesisElements} */}
                     </div>
                 </section>
                 {/* /////////////////////////////////////////// */}
